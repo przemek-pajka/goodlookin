@@ -1,0 +1,20 @@
+@import "variables";
+@import "bourbon";
+
+@font-face {
+    font-family: 'fontello';
+    src: url('../fonts/fontello/fontello.eot?2506089');
+    src: url('../fonts/fontello/fontello.eot?2506089#iefix') format('embedded-opentype'),
+         url('../fonts/fontello/fontello.woff?2506089') format('woff'),
+         url('../fonts/fontello/fontello.ttf?2506089') format('truetype'),
+         url('../fonts/fontello/fontello.svg?2506089#fontello') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@include font-face("lovelo", "../fonts/lovelo/lovelo_black-webfont", $file-formats: eot otf font-woff ttf svg);
+@include font-face("lato", "../fonts/lato/Lato-Regular", $file-formats: ttf );
+@include font-face("lato-bold", "../fonts/lato/Lato-Bold", $file-formats: ttf );
+
+
+

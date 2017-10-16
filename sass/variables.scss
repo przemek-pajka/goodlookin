@@ -1,0 +1,19 @@
+$grid-columns: 12; //Ilość kolumn grid'a
+
+// PAGE FONTS
+$baseFont: "lovelo";
+
+
+// PAGE COLORS
+$baseColor: #000; // Kolor bazowy (zazwyczaj czarny lub podobny wykorzystywany globalnie np. dla fontów)
+$brdGray: #e5e5e5; // Kolor alternatywny (dla jasno szarych bloków, pod zdjęcia,ikony)*/
+$orangeColor: #ff6600;
+
+
+
+//MEDIA QUERIES
+$desktop: "min-width: 769px";
+$desktop-xs: "max-width: 991px";
+$tablet: "max-width: 768px";
+$phone-xl: "max-width: 425px";
+$phone-xs: "max-width: 375px";
